@@ -1,0 +1,298 @@
+.roboiticons-style
+{
+	cursor: pointer !important;
+}
+.roboiticons-style:hover
+{
+	opacity: 0.7;
+}
+#RIT_Video_Gallery_Load_More
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#RIT_Video_Gallery_Load_More:hover
+{
+	text-decoration: none;
+}
+#RIT_Video_Gallery_Load_More:active
+{
+	color: #0073aa;
+}
+@-webkit-keyframes mymove {
+    from { height:0;width:0;}
+    to {height:100%;width:100%;}
+}
+/* Standard syntax */
+@keyframes mymove {
+   from { height:0;width:0;}
+    to {height:100%;width:100%;}
+}
+.RIT_VG_3DCont{
+    width: 100%;
+    position: relative;
+}
+.RIT_VG_3Dwrap{
+    margin: 0 auto;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+}
+.RIT_VG_3Dwrap span{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.RIT_VG_3Dwrap span.dg-transition{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.RIT_VG_3Dwrap span iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.RIT_VG_3Dwrap span div, .RIT_VG_3Dwrap span a div{
+    width: 100%;
+}
+.RIT_VG_3Dwrap span.dg-center div,.RIT_VG_3Dwrap span.dg-center a div{
+    display: block;
+}
+.RIT_VG_3DCont nav{
+    z-index: 1000000;
+    margin-left: -30px;
+    position: absolute;
+    left: 50%;
+}
+.RIT_VG_3DCont nav span{
+    cursor:pointer;
+    opacity: 0.8;
+}
+.RIT_VG_3DCont nav span.RIT_VG_3DNext{
+    margin-left: 10px;
+}
+.RIT_VG_3D_A, .RIT_VG_3D_A:hover
+{
+	text-decoration: none;
+	cursor: pointer;
+}
+.RIT_VG_GHE_Main
+{
+	position:relative;
+    float: left;
+}
+.RIT_VG_GHE_View img
+{
+	display: block;
+    position: relative;
+    width:100%;
+    height:100% !important;
+}
+.RIT_VG_GHE_Effect1 img 
+{
+    opacity:1;
+    -moz-transform:scale(1,1);
+    -webkit-transform:scale(1,1);
+    -o-transform:scale(1,1);
+    -ms-transform:scale(1,1);
+    transform:scale(1,1);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.RIT_VG_GHE_Effect1 span.RIT_VG_GHE_Info 
+{
+	opacity:0;
+    -moz-transform:translateY(-125px);
+    -webkit-transform:translateY(-125px);
+    -o-transform:translateY(-125px);
+    -ms-transform:translateY(-125px);
+    transform:translateY(-125px);
+    -moz-transition: -moz-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+    -webkit-transition: -webkit-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+    -o-transition: -o-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+    -ms-transition: -ms-transform 0.3s ease-in, opacity 0.1s ease-in-out;
+    transition: transform 0.3s ease-in, opacity 0.1s ease-in-out;
+}
+.RIT_VG_GHE_Effect1:hover img 
+{
+	opacity:1;
+    -moz-transform:scale(2,2);
+    -webkit-transform:scale(2,2);
+    -o-transform:scale(2,2);
+    -ms-transform:scale(2,2);
+    transform:scale(2,2);
+}
+.RIT_VG_GHE_Effect1 .RIT_VG_GHE_Mask 
+{
+	opacity:0;
+	overflow:visible;
+	border-style:solid;
+	width:0;
+    height:0;
+    -moz-transform:translateY(-125px);
+    -webkit-transform:translateY(-125px);
+    -o-transform:translateY(-125px);
+    -ms-transform:translateY(-125px);
+    transform:translateY(-125px);
+    -moz-transition: -moz-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+    -webkit-transition: -webkit-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+    -o-transition: -o-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+    -ms-transition: -ms-transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+    transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
+}
+.RIT_VG_GHE_Effect1:hover .RIT_VG_GHE_Mask 
+{
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+.RIT_VG_GHE_Effect2 .RIT_VG_GHE_Mask 
+{
+    opacity: 0;
+    overflow:visible;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.RIT_VG_GHE_Effect2 span.RIT_VG_GHE_Info 
+{
+ 	position:relative;
+	opacity:0;
+    -moz-transform:scale(0,0);
+    -webkit-transform:scale(0,0);
+    -o-transform:scale(0,0);
+    -ms-transform:scale(0,0);
+    transform:scale(0,0);
+    -webkit-transition: -webkit-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+    -moz-transition: -moz-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+    -o-transition: -o-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+    -ms-transition: -ms-transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+    transition: transform 0.2s 0.1s ease-in, opacity 0.1s ease-in-out;
+}
+.RIT_VG_GHE_Effect2:hover span.RIT_VG_GHE_Info 
+{
+	opacity:1;
+	-moz-transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-ms-transform:scale(1,1);
+	transform:scale(1,1);
+	-moz-transition-delay:0.3s;
+	-webkit-transition-delay:0.3s;
+	-o-transition-delay:0.3s;
+	-ms-transition-delay:0.3s;
+	transition-delay:0.3s;
+}
+.RIT_VG_GHE_Effect3 .RIT_VG_GHE_Mask 
+{
+    opacity: 0;
+    overflow:visible;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.RIT_VG_GHE_Effect3 span.RIT_VG_GHE_Info 
+{
+    position:relative;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s 0s ease-in-out;
+    -moz-transition: opacity 0.5s 0s ease-in-out;
+    -o-transition: opacity 0.5s 0s ease-in-out;
+    -ms-transition: opacity 0.5s 0s ease-in-out;
+    transition: opacity 0.5s 0s ease-in-out;
+}
+.RIT_VG_GHE_Effect3:hover span.RIT_VG_GHE_Info 
+{
+    opacity:1;
+	-moz-transition-delay: 0.3s;
+	-webkit-transition-delay: 0.3s;
+	-o-transition-delay: 0.3s;
+	-ms-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+.RIT_VG_GHE_Effect4 span.RIT_VG_GHE_Info 
+{
+    opacity: 0;
+}
+.RIT_VG_GHE_Effect4 .RIT_VG_GHE_Mask 
+{
+	position:absolute; /* Center the mask */
+	cursor:pointer;
+    border-radius: 500px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+	visibility:visible;
+	-moz-transform:scale(4);
+	-webkit-transform:scale(4);
+	-o-transform:scale(4);
+	-ms-transform:scale(4);
+	transform:scale(4);
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	transition:all 0.8s ease-in-out;
+}									
+.RIT_VG_GHE_Effect4:hover .RIT_VG_GHE_Mask 
+{
+    opacity: 0;
+    visibility:hidden;
+}
+.RIT_VG_GHE_Effect5 span.RIT_VG_GHE_Info 
+{
+    opacity: 0;
+}
+.RIT_VG_GHE_Effect5 img 
+{
+	opacity:0.2;
+	-moz-transition: all 0.3s ease-in;
+}
+.RIT_VG_GHE_Effect5 .RIT_VG_GHE_Mask {
+    cursor:pointer;
+    visibility:visible;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+}
+.RIT_VG_GHE_Effect5:hover .RIT_VG_GHE_Mask {
+	border:0px double rgba(0,0,0,0.7);
+	opacity:0;
+	visibility:hidden;
+}
+.RIT_VG_GHE_Effect5:hover img {
+	opacity:1;
+}
